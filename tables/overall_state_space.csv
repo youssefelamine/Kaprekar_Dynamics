@@ -1,0 +1,13 @@
+scope,category,count,percentage_of_scope
+four-digit states 0000-9999,all states,10000,100.0
+four-digit states 0000-9999,valid non-repdigit states,9990,99.9
+four-digit states 0000-9999,repdigits,10,0.1
+four-digit states 0000-9999,basin of 6174,9990,99.9
+four-digit states 0000-9999,basin of 0000,10,0.1
+four-digit states 0000-9999,other-cycle basin,0,0.0
+ordinary integers 1000-9999,all states,9000,100.0
+ordinary integers 1000-9999,valid non-repdigit states,8991,99.9
+ordinary integers 1000-9999,repdigits,9,0.1
+ordinary integers 1000-9999,basin of 6174,8991,99.9
+ordinary integers 1000-9999,basin of 0000,9,0.1
+ordinary integers 1000-9999,other-cycle basin,0,0.0

@@ -1,0 +1,160 @@
+{
+  "total_states": 10000,
+  "ordinary_integer_states": 9000,
+  "valid_states": 9990,
+  "ordinary_valid_states": 8991,
+  "repdigits": 10,
+  "reaches_6174": 9990,
+  "reaches_0000": 10,
+  "other_cycle_basin_size": 0,
+  "fixed_points": [
+    "0000",
+    "6174"
+  ],
+  "cycles": [
+    {
+      "cycle": "0000 -> 0000",
+      "cycle_nodes": "0000",
+      "cycle_length": 1,
+      "kind": "fixed point",
+      "basin_size": 10,
+      "maximum_basin_depth": 1
+    },
+    {
+      "cycle": "6174 -> 6174",
+      "cycle_nodes": "6174",
+      "cycle_length": 1,
+      "kind": "fixed point",
+      "basin_size": 9990,
+      "maximum_basin_depth": 7
+    }
+  ],
+  "graph": {
+    "nodes": 10000,
+    "edges": 10000,
+    "weakly_connected_components": 2,
+    "strongly_connected_components": 10000,
+    "cyclic_strong_components": 2
+  },
+  "valid_iteration_statistics": {
+    "scope": "all valid states 0000-9999",
+    "count": 9990,
+    "minimum": 0,
+    "maximum": 7,
+    "mean": 4.668368368368369,
+    "median": 5.0,
+    "population_standard_deviation": 1.7757769635471412
+  },
+  "ordinary_valid_iteration_statistics": {
+    "scope": "valid ordinary integers 1000-9999",
+    "count": 8991,
+    "minimum": 0,
+    "maximum": 7,
+    "mean": 4.678567456345234,
+    "median": 5,
+    "population_standard_deviation": 1.780748892035973
+  },
+  "valid_iteration_distribution": {
+    "0": 1,
+    "1": 383,
+    "2": 576,
+    "3": 2400,
+    "4": 1272,
+    "5": 1518,
+    "6": 1656,
+    "7": 2184
+  },
+  "ordinary_valid_iteration_distribution": {
+    "0": 1,
+    "1": 356,
+    "2": 519,
+    "3": 2124,
+    "4": 1124,
+    "5": 1379,
+    "6": 1508,
+    "7": 1980
+  },
+  "maximum_distance": 7,
+  "maximum_distance_state_count": 2184,
+  "maximum_distance_permutation_class_count": 116,
+  "permutation_class_count": 715,
+  "valid_permutation_class_count": 705,
+  "permutation_classes_with_nonuniform_start_distance": 1,
+  "xy_pair_count": 55,
+  "unique_one_step_outputs": 55,
+  "unique_valid_one_step_outputs": 54,
+  "unique_states_in_valid_trajectories_including_starts": 9990,
+  "unique_post_first_states_in_valid_trajectories": 54,
+  "top_predecessors": [
+    {
+      "rank": 1,
+      "state": 5085,
+      "state_string": "5085",
+      "direct_predecessor_count": 480,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 2,
+      "state": 6084,
+      "state_string": "6084",
+      "direct_predecessor_count": 480,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 3,
+      "state": 4086,
+      "state_string": "4086",
+      "direct_predecessor_count": 432,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 4,
+      "state": 7083,
+      "state_string": "7083",
+      "direct_predecessor_count": 432,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 5,
+      "state": 6174,
+      "state_string": "6174",
+      "direct_predecessor_count": 384,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 6,
+      "state": 5175,
+      "state_string": "5175",
+      "direct_predecessor_count": 360,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 7,
+      "state": 7173,
+      "state_string": "7173",
+      "direct_predecessor_count": 360,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 8,
+      "state": 3087,
+      "state_string": "3087",
+      "direct_predecessor_count": 336,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 9,
+      "state": 8082,
+      "state_string": "8082",
+      "direct_predecessor_count": 336,
+      "is_one_step_output": true
+    },
+    {
+      "rank": 10,
+      "state": 4176,
+      "state_string": "4176",
+      "direct_predecessor_count": 288,
+      "is_one_step_output": true
+    }
+  ]
+}

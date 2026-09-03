@@ -1,0 +1,36 @@
+{
+  "algorithm": "exact symmetry-weighted digit-multiset enumeration",
+  "base_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "digit_widths": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "implementation": "CPython",
+  "packages": {
+    "matplotlib": "3.10.8",
+    "networkx": "3.6.1",
+    "numpy": "2.4.2",
+    "pandas": "3.0.0"
+  },
+  "platform": "macOS-15.3.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.12"
+}

@@ -1,0 +1,7 @@
+stage,count,notes
+all four-digit states,10000,0000 through 9999
+sorted-digit permutation classes,715,combinations with repetition of 10 digits taken 4 at a time
+"digit-difference (x,y) pairs",55,0 <= y <= x <= 9
+unique outputs after one step,55,includes 0000 from repdigits
+unique outputs from valid states,54,excludes the repdigit output 0000
+attractors,2,cycles discovered exhaustively

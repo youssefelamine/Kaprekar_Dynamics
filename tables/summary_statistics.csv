@@ -1,0 +1,3 @@
+scope,count,minimum,maximum,mean,median,population_standard_deviation
+all valid states 0000-9999,9990,0,7,4.668368368368369,5.0,1.7757769635471412
+valid ordinary integers 1000-9999,8991,0,7,4.678567456345234,5.0,1.780748892035973
