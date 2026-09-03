@@ -43,28 +43,6 @@ Digit permutation immediately removes most positional information, and the four-
 - [Artifact index](#artifact-index)
 - [References](#references)
 
-## Quick start
-
-The exact tested environment is Python 3.13.12 with the package versions pinned in `requirements.txt`.
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install -r requirements.txt
-python3 -m src.pipeline
-python3 -m src.generalized_pipeline
-python3 -m unittest discover -s tests -v
-```
-
-## Repository navigation
-
-- [`src/`](src/): transformation logic, exhaustive analyses, visualization, proof, and pipeline code
-- [`tests/`](tests/): independent reference checks and generalized weighted-census tests
-- [`data/`](data/): complete classical states and generalized weighted-class records
-- [`tables/`](tables/): summaries, basins, depth distributions, and proof certificate
-- [`figures/`](figures/): all plots in PNG and PDF formats
-- [`requirements.txt`](requirements.txt): exact tested Python package versions
-
 ## Part I — The classical four-digit decimal system
 
 ### 1. Introduction
@@ -587,6 +565,28 @@ Run `python3 -m src.generalized_pipeline` from the project root. The pipeline re
 - [`attractors_and_basins.csv`](tables/generalized/attractors_and_basins.csv): every discovered terminal cycle;
 - [`depth_distributions.csv`](tables/generalized/depth_distributions.csv): exact weighted depth counts;
 - [`kaprekar_6174_pair_certificate.csv`](tables/generalized/kaprekar_6174_pair_certificate.csv): the checked 55-pair proof table.
+
+#### Quick start
+
+The exact tested environment is Python 3.13.12 with the package versions pinned in `requirements.txt`.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 -m src.pipeline
+python3 -m src.generalized_pipeline
+python3 -m unittest discover -s tests -v
+```
+
+#### Repository navigation
+
+- [`src/`](src/): transformation logic, exhaustive analyses, visualization, proof, and pipeline code
+- [`tests/`](tests/): independent reference checks and generalized weighted-census tests
+- [`data/`](data/): complete classical states and generalized weighted-class records
+- [`tables/`](tables/): summaries, basins, depth distributions, and proof certificate
+- [`figures/`](figures/): all plots in PNG and PDF formats
+- [`requirements.txt`](requirements.txt): exact tested Python package versions
 
 ## Part III — Finite proof certificate for the seven-step 6174 bound
 
