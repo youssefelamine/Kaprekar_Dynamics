@@ -34,8 +34,6 @@ Digit permutation immediately removes most positional information, and the four-
 
 ## Contents
 
-- [Quick start](#quick-start)
-- [Repository navigation](#repository-navigation)
 - [Part I — The classical four-digit decimal system](#part-i--the-classical-four-digit-decimal-system)
 - [Part II — Generalized Kaprekar systems](#part-ii--generalized-kaprekar-systems)
 - [Part III — Finite proof certificate](#part-iii--finite-proof-certificate-for-the-seven-step-6174-bound)
